@@ -209,5 +209,11 @@ Consider, for example, concepts of fariness, inequality, social structures, marg
 
 
 ```
-Your thoughts...
+Databases are part of many areas of our everyday lives in today’s digital world, including university portals, banking apps, navigation systems, search engines, and streaming platforms. The way these systems are designed - their underlying structure or “schema” - shapes how people are categorized and understood within them. For example, many databases require users to select from fixed options such as marital status or gender, reflecting assumptions about what categories are allowed and used to link datapoints within the data base. 
+
+Another important value reflected in many modern data systems is a users consumption behavior. In particular, databases are often built to track, predict, and encourage user spending and engagement. For instance, online shopping platforms frequently require users to create an account rather than allowing guest checkout, enabling the system to store personal data and generate “recommended for you” suggestions. 
+
+A further value embedded in many databases is locality or residency. Many systems, such as those used for credit cards or Social Insurance Numbers, require a fixed address or proof of residence. This reflects an assumption that individuals are tied to a specific place. However, in an increasingly global and mobile world, where remote work and travel are more common, this emphasis on having a permanent address may not reflect everyone’s reality.
+
+The underlying trend/challenge in values that are embedded in databases are the increasingly importance of personalization. Adds, medicine, consumer goods are being tailored more and more effectively to every individual. This, on the one hand necessitates databases to build a personalized user profile, however, in the future this will also raise the need for personalized answer options, making databases (which ultimately categorize and structure social networks/data) more fluid and dynamic. 
 ```
