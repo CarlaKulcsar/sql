@@ -56,7 +56,7 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Your answer...
+Slowly changing dimensions are tables whos entries may change, for example the customer adress. If only the most up to date version is important, and changes don't have to be retained, we call these Type 1 slowly changing dimensions (SCD), in which the current value overwrites the old one. This may be the case, if the customer adress has a typo that we want to overwrite. If changes have to be retained however - for example if a large customer changes their adress, but we are interested in keeping their adress history - a Type 2 SCD architecture should be used (for example temporal tables in SQL).
 ```
 
 ***
@@ -191,5 +191,5 @@ Consider, for example, concepts of labour, bias, LLM proliferation, moderating c
 
 
 ```
-Your thoughts...
+The article highlights how AI training is not only dependent on the AI architecture itself but strongly influenced by the training dataset, which is created and curated by humans. As such, human ethical values shape the artificial intelligence’s capability of making judgment calls. While it may seem as if AI makes objective, rational decisions, it can’t create knowledge or assessment guidelines on its own, but is trained on such data. Every evaluation by AI is based on an underlying dataset, which is influenced by human morals. Even if it may seem like a very objective task, like classifying images, the training dataset that AI learns from can be biased or simply misrepresented. While a bias might, to the human eye, not be noticeable (especially in very large datasets), machine learning algorithms can pick such patterns up and amplify them during the learning process. This can create answers that were never anticipated by the dataset creators. This highlights the importance of moderating content and carefully filtering the data that technology later automates on. AI is not self-sufficient, but heavily depends on our initial judgment calls, repeating and learning from patterns that we introduce when communicating with it. Data preprocessing is a key objective in the advancement of AI and will have to integrate carefully tailored policies, ensuring an age of technology in which AI is not only task-optimized, but also adapted to the ethical standards that we as a human society value.
 ```
